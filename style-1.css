@@ -1,0 +1,24 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:#fff;color:#222}
+.hero{background:radial-gradient(circle,#087509,#005500);color:#fff;text-align:center;padding:50px 20px 30px}
+.logo{width:135px;height:135px;background:#fff;border-radius:50%;margin:0 auto 30px;display:flex;align-items:center;justify-content:center;flex-direction:column;box-shadow:0 0 25px rgba(255,255,255,.3)}
+.coin{font-size:42px}.logo h3{color:#123d67;font-size:20px}.logo small{color:#b59b00}
+h1{font-size:clamp(36px,5vw,56px);margin-bottom:18px}
+.tagline{font-size:20px;font-weight:bold;letter-spacing:2px;margin-bottom:25px}
+.description{max-width:750px;margin:auto;color:#e0e8e0;font-size:17px;line-height:1.7}
+.buttons{margin:35px 0 45px;display:flex;justify-content:center;gap:15px;flex-wrap:wrap}
+.btn{padding:16px 25px;border-radius:9px;color:#fff;text-decoration:none;font-size:14px;font-weight:bold;letter-spacing:1px;display:inline-block}
+.download{background:#ffdb00;box-shadow:0 0 0 7px rgba(255,219,0,.18)}.whatsapp{background:#20cc68}
+.features{max-width:820px;margin:auto;background:rgba(0,60,0,.5);padding:20px;border-radius:40px;display:flex;justify-content:center;gap:35px;flex-wrap:wrap;color:#eee}
+.features span{white-space:nowrap}
+.rates{padding:80px 20px 30px;text-align:center}.rates h2{color:#006600;font-size:38px;letter-spacing:3px}
+.crown{color:#f5d500;margin:20px 0;font-size:25px}.subtitle{color:#888;margin-bottom:45px;font-size:17px}
+.table-box{max-width:820px;margin:auto;overflow-x:auto;border-radius:9px;box-shadow:0 12px 35px rgba(0,0,0,.12)}
+table{width:100%;border-collapse:collapse;text-align:left}thead{background:#006600;color:#fff}
+th{padding:20px;font-size:14px;letter-spacing:1px}td{padding:19px 20px;border-bottom:1px solid #eee}
+td:first-child{color:#174b20;font-weight:bold}td:nth-child(2),td:nth-child(3){text-align:center}td:nth-child(3){font-weight:bold;font-size:17px}
+tbody tr:last-child{background:#fff5e5}.icon{color:#f0d500;margin-right:10px}
+.note{max-width:920px;margin:40px auto;text-align:left;color:#888;font-style:italic;line-height:1.6}
+.start-btn{display:block;max-width:970px;margin:auto;background:#006600;color:#fff;text-decoration:none;border:6px solid #fff0a0;border-radius:15px;padding:15px;font-weight:bold;font-size:13px;letter-spacing:2px}
+.start-btn:hover{background:#004d00}
+@media(max-width:600px){.hero{padding:35px 15px}.logo{width:110px;height:110px}.tagline{font-size:14px;line-height:1.7;letter-spacing:1px}.description{font-size:15px}.features{gap:15px;border-radius:15px;font-size:13px}.rates{padding:50px 12px 25px}.rates h2{font-size:30px}th{padding:15px 10px;font-size:12px}td{padding:15px 10px;font-size:13px}td:nth-child(3){font-size:14px}.icon{margin-right:4px}}
